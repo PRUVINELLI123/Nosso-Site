@@ -1,0 +1,36 @@
+:root{
+    --preto: #000;
+    --cinza: #233236;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 300px;
+    display: block;
+    float: left;
+    background-color: var(--);
+}
+article{
+    width: 70%;
+    height: 800px;
+    display: block;
+    float: left;
+    background-color: var();
+}
+aside{
+    width: 30%;
+    height: 800px;
+    display: block;
+    float: left;
+    background-color: var(--);
+}
+footer{
+    width: 100%;
+    height: 150px;
+    display: block;
+    float: left;
+    background-color: var();
+}
