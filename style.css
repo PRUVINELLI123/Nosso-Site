@@ -42,6 +42,20 @@ aside{
     float: left;
     background-color: var(--branco);
 }
+#nome{
+    height: 20px;
+    width: 200px;
+    border-radius: 10px;
+    border: solid rgb(91, 91, 91);
+    box-shadow: black 1px 3px 3px;
+}
+#nome1{
+    height: 18px;
+    font-size: 18px;
+    border-radius: 2px;
+    border: none;
+    background-color: white;
+}
 footer{
     width: 100%;
     height: 150px;
