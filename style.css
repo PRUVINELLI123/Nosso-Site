@@ -4,6 +4,9 @@
     --cinza:#233236;
     --azul: #282828;
     --azul: #172e4d;
+    --preto_menos_escuro: #171717;
+    --bege: #a8a29e;
+    --branco_menos_claro: #f5f5f5 ;
 }
     
 @font-face {
@@ -42,10 +45,122 @@ aside{
     float: left;
     background-color: var(--branco);
 }
-footer{
+footer {
     width: 100%;
-    height: 150px;
-    display: block;
-    float: left;
-    background-color: var(--preto);
+    color: var(--preto);
+    margin-top: 115px;  
+ }
+
+ .footer-link {
+    text-decoration: none;
+ }
+
+#footer_content {
+    background-color: var(--preto_menos_escuro);
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 3rem 3.5rem;
+}
+
+#footer_contacts {
+    margin-bottom: 0,75rem;
+}
+
+#social_media {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+#social_media .footer-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    color: var(--branco_menos_claro);
+    border-radius: 50%;
+    transition: all 0.4s;
+}
+
+#social_media .footer-link i {
+    font-size: 1.25rem;
+}
+
+#social_media .footer-link:hover {
+    opacity: 0.8;
+}
+
+#instagram{
+    background: linear-gradient(#7f37c9, #ff2992, #ff9807);
+}
+
+#facebook {
+    background-color: #4267b3;
+}
+
+#youtube {
+    background-color: rgb(255, 0, 0);
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 0.75rem;
+    margin-left: 80px;
+    margin-top: 1rem;
+}
+
+.footer-list .footer-link {
+    color: var(--bege);
+    transition: all 0.4s;
+}
+
+.footer-list .footer-link:hover {
+    color: #7f37c9;
+}
+
+#footer_subscribe {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    margin-top: 1rem;
+    margin-left: 30px;
+}
+
+#footer_subscribe p {
+    color: var(--bege);
+}
+
+#input_group {
+    display: flex;
+    align-items: center;
+    background-color: var(--bege);
+    border-radius: 4px;
+}
+
+#input_group input {
+    all: unset;
+    padding: 0.75rem;
+    width: 100%;
+}
+
+#input_group button {
+    background-color: #7f37c9;
+    border: none;
+    color: var(--branco_menos_claro);
+    padding: 0px 1.25rem;
+    font-size: 1,125rem;
+    height: 100%;
+    border-radius: 0px 4px 4px 0px;
+    cursor: pointer;
+}
+
+#input_group button:hover {
+    opacity: 0,8;
+}
+
+#footer_contacts h1  {
+    margin-bottom: 10px;
 }
