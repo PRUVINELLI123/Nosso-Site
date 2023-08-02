@@ -28,13 +28,25 @@ header{
     float: left;
     background-color: var(--cinza);
 }
+article img{
+    width: 170px;
+    height: 250px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
 article{
-    width: 70%;
-    height: 800px;
+    width: 100%;
+    height: auto;
     display: block;
     float: left;
-    background-color: var(--azul);
 }
+#roupa{
+    width: 20%;
+    display: block;
+    background-color: var();
+}
+
+
 aside{
     width: 30%;
     height: 800px;
