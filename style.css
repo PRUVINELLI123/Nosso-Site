@@ -26,20 +26,26 @@ header{
     height: 70px;
     display: block;
     float: left;
-    background-color: #000;
+    background-color: var(--preto);
 }
-
+header #img_header{
+    width: 30%;
+    height: 50px;
+    display: block;
+    float: left;
+    
+    
+}
 #img_header img{
     width: 90px;
     height: 70px;
-    margin-left: 100px;
- }
+}
 
-#navlist {
-    background-color: #000;
-    position: absolute;
-    width: 100%;
-    margin-left: 230px;
+header #navlist {
+    margin-top: 10px;
+    width: 70%;
+    display: block;
+    float: left;
     
 }
               
