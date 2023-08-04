@@ -136,7 +136,7 @@ footer {
 #input_group {
     display: flex;
     align-items: center;
-    background-color: var(--bege);
+    background-color: var(--cinza);
     border-radius: 4px;
 }
 
