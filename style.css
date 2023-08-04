@@ -29,14 +29,14 @@ header{
     background-color: var(--cinza);
 }
 article{
-    width: 70%;
+    width: 75%;
     height: 800px;
     display: block;
     float: left;
     background-color: var(--azul);
 }
 aside{
-    width: 30%;
+    width: 25%;
     height: 800px;
     display: block;
     float: left;
@@ -48,13 +48,21 @@ aside{
     border-radius: 10px;
     border: solid rgb(91, 91, 91);
     box-shadow: black 1px 3px 3px;
+    margin-left: 2px;
 }
 #nome1{
     height: 18px;
     font-size: 18px;
     border-radius: 2px;
     border: none;
-    background-color: white;
+    cursor: pointer;
+    background-color: #282828;
+    margin-top: 2px;
+}
+
+#nome1:hover {
+    transform: scale(1.1);
+    transition: .2s;
 }
 footer{
     width: 100%;
@@ -62,4 +70,25 @@ footer{
     display: block;
     float: left;
     background-color: var(--preto);
+}
+#caixa{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+#caixa li{
+    list-style: none;
+    margin-top: 10px;
+}
+
+#caixa a:hover{
+    color: purple;
+    font-size: 18px;
+}
+#caixa a{
+    color: #a8a293;
+}
+#corz{
+    background-color: #282828;
 }
