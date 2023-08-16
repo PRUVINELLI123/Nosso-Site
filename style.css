@@ -31,25 +31,23 @@ header{
 article{
     height: auto;
     width: 75%;
+    
 }
 article img{
     width: 190px;
     height: 270px;
-    margin-top: 100px;
+    margin-top: 80px;
     margin-left: 20px;
 }
 article .all-browsers{
     display: block;
     float: left;
-    background-color: gray;
-    height: auto;
 }
 #roupa{
     margin-left: 10px;
     display: block;
     width: 32%;
     float: left;
-    
 }
 article h2{
     display: block;
@@ -64,7 +62,7 @@ article h2{
 
 aside{
     width: 25%;
-    height: 800px;
+    height: 500px;
     display: block;
     float: left;
     background-color: var(--branco);
